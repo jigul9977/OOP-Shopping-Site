@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "title": "Backpack",
+    "price": 109,
+    "image": "./assets/img/1-1.jpg"
+  },
+  {
+    "id": 2,
+    "title": "T-Shirts ",
+    "price": 22,
+    "image": "./assets/img/2-2.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Jacket",
+    "price": 55,
+    "image": "./assets/img/3-3.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Henley shirt",
+    "price": 15,
+    "image": "./assets/img/4-4.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Dragon Chain",
+    "price": 695,
+    "image": "./assets/img/5-5.jpg"
+  },
+  {
+    "id": 6,
+    "title": "White Gold Ring",
+    "price": 168,
+    "image": "./assets/img/6-6.jpg"
+  },
+  {
+    "id": 7,
+    "title": "White Gold Ring",
+    "price": 9,
+    "image": "./assets/img/7-7.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Rose Gold Ring",
+    "price": 10,
+    "image": "./assets/img/8-8.jpg"
+  },
+  {
+    "id": 9,
+    "title": "WD External Hard",
+    "price": 64,
+    "image": "./assets/img/9-9.jpg"
+  },
+  {
+    "id": 10,
+    "title": "SanDisk Internal SSD",
+    "price": 109,
+    "image": "./assets/img/10-10.jpg"
+  },
+  {
+    "id": 11,
+    "title": "SP Internal SSD",
+    "price": 109,
+    "image": "./assets/img/11-11.jpg"
+  },
+  {
+    "id": 12,
+    "title": "WD External Hard",
+    "price": 114,
+    "image": "./assets/img/12-12.jpg"
+  }
+]

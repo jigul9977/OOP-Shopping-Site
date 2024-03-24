@@ -1,0 +1,192 @@
+@import "_reset.css";
+
+header h1 {
+  margin: 40px auto;
+  padding: 32px 0;
+  text-align: center;
+  color: var(--color-primary);
+}
+main {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+#products {
+  margin-right: 40px;
+  flex-basis: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#products .product-wrapper {
+  flex-basis: 30%;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px; /* flex-basis: 33%; */
+  border-radius: 32px;
+  margin-bottom: 40px;
+}
+.product-wrapper img {
+  width: 100%;
+  display: block;
+  border-radius: 24px;
+}
+#products .product-wrapper .product-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--color-light);
+  width: 100%;
+  height: 120px;
+  border-radius: 24px;
+  padding: 24px;
+  margin-top: 32px;
+}
+#products .product-wrapper .product-info > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#products .product-wrapper .product-info h3 {
+  color: var(--color-primary);
+  font-size: 1.2rem;
+}
+#products .product-wrapper .product-info > div span {
+  color: var(--color-price);
+  font-size: 1.1rem;
+}
+#products .product-wrapper .product-info > div i:hover {
+  background-color: var(--color-primary);
+  color: #fff;
+  border-radius: 40%;
+}
+#products .product-wrapper .product-info > div i {
+  text-align: center;
+  line-height: 39px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #fff;
+  outline: none;
+  border: #fff;
+  cursor: pointer;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  transition: all 0.1s ease-in;
+  font-size: 1.3rem;
+}
+#cart {
+  flex-basis: 30%;
+}
+#cart h3 {
+  background-color: var(--color-primary);
+  color: #fffbfb;
+  padding: 24px;
+  text-align: center;
+  font-size: 1.5rem;
+  border-radius: 24px;
+  margin-bottom: 32px;
+}
+#cart-list {
+  margin: 0 auto;
+  width: 95%;
+}
+#cart-list h5 {
+  color: var(--color-error);
+  font-size: 1.5rem;
+  border: 2px solid var(--color-error);
+  padding: 40px;
+  border-radius: 24px;
+  text-align: center;
+  margin-bottom: 32px;
+}
+#cart-list > div {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid var(--color-light);
+  padding: 20px 16px;
+  margin-bottom: 20px;
+  border-radius: 24px;
+}
+#cart-list > div img {
+  width: 60px;
+}
+.cart-info {
+  text-align: center;
+}
+.cart-info h4 {
+  color: var(--color-primary);
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+}
+
+.cart-info p {
+  color: var(--color-price);
+}
+/* .cart-control {
+  flex-basis: 22%;
+  display: flex;
+  flex-direction: column;
+} */
+.cart-control > div {
+  width: 85px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.cart-control > div i {
+  width: 30px;
+  height: 30px;
+  background-color: var(--color-secondary);
+  line-height: 30px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 1.1rem;
+  border-radius: 50%;
+  border: none;
+  transition: all 0.15s ease-in;
+}
+.cart-control > div i:hover {
+  background-color: var(--color-primary);
+  color: #fff;
+  border-radius: 40%;
+}
+.cart-control > div span {
+  padding: 0 8px;
+}
+.cart-control .remove-btn {
+  text-align: center;
+  display: inline-block;
+  background-color: #fff;
+  color: var(--color-error);
+  border: 2px solid var(--color-error);
+  outline: none;
+  width: 100%;
+  padding: 5px 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.15s ease-out;
+}
+.cart-control .remove-btn:hover {
+  background-color: var(--color-error);
+  color: #fff;
+}
+
+#total-price {
+  margin: 0 auto;
+  border: 2px solid var(--color-light);
+  background-color: #fff;
+  padding: 24px;
+  border-radius: 20px;
+  width: 90%;
+  color: var(--color-price);
+  font-size: 1.1rem;
+}
+#total-price span {
+  color: var(--color-primary);
+}
